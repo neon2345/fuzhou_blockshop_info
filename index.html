@@ -27,7 +27,7 @@
 </div>
 <div id="container"></div>
 <script>
-    fetch('xq_data.json')
+    fetch('output_business_district.json')
         .then(res => res.json())
         .then(bizData => {
             const map = new AMap.Map('container', {
