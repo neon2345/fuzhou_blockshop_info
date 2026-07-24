@@ -81,7 +81,7 @@
                     const data = e.target.getExtData();
                     let content = `<div class="info-window"><h4>商圈信息</h4><table>`;
                     content += `<tr><th>六边形ID</th><td>${data['六边形ID'] || ''}</td></tr>`;
-                    const keys = ['绣球开店计划', '商圈排序'];
+                    const keys = ['绣球开店', '排序'];
                     keys.forEach(k => {
                         content += `<tr><th>${k}</th><td>${data[k] !== null && data[k] !== undefined ? data[k] : ''}</td></tr>`;
                     });
